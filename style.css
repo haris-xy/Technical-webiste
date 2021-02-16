@@ -1,0 +1,51 @@
+html{
+    
+     font-family: Inconsolata, sans-serif;
+     background-color: #DFDBE5;
+     background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23fd8907' fill-opacity='0.61' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+    }
+  .main-section{
+    margin:40px 60px 100px 80px;
+  }
+  header{
+    font-size:40px;
+  }
+  p, ul, ol{
+    font-size:20px;
+    width:640px;
+    text-align:left;
+  }
+  #navbar{
+    height: 100%;
+    width: 210px; 
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #FF9E80; 
+    overflow-x: hidden; 
+    padding-top: 20px;
+  
+  }
+  #navbar a:hover {
+    color: #f1f1f1;
+    background-color:#212121;
+    border-radius:5px;
+    font-weight: bold;
+  }
+  .nav-link{
+    padding: 3px 1px 25px 0;
+    text-decoration: none;
+    font-size: 18px;
+    color: #000;
+    display: flex;
+    
+    }
+  #main-doc {
+    margin-left: 160px; 
+    padding: 0px 10px;
+  }
+  @media screen and (max-height: 450px) {
+    #navbar {padding-top: 15px;}
+    #navbar a {font-size: 18px;}
+  }
