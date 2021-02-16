@@ -1,0 +1,80 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Technical documentation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+          <header>
+            Introduction
+          </header>  
+            <p>HTML (Hypertext Markup Language) is the code that is used to structure a web page and its content. For example, content could be structured within a set of paragraphs, a list of bulleted points, or using images and data tables. As the title suggests, this article will give you a basic understanding of HTML and its functions.</p>
+        </section>
+        <section class="main-section" id="So,_what_is_HTML?">
+          <header>
+            So, what is HTML?
+          </header>  
+            <p>HTML is not a programming language; it is a markup language that defines the structure of your content. HTML consists of a series of elements, which you use to enclose, or wrap, different parts of the content to make it appear a certain way, or act a certain way. The enclosing tags can make a word or image hyperlink to somewhere else, can italicize words, can make the font bigger or smaller, and so on.</p>
+        </section>
+        <section class="main-section" id="Images">
+          <header>
+            Images
+          </header>  
+            <p>As we said before, it embeds an image into our page in the position it appears. It does this via the <code>src</code> (source) attribute, which contains the path to our image file.
+    <br><br>      
+              We have also included an <code>alt</code> (alternative) attribute. In this attribute, you specify descriptive text for users who cannot see the image, possibly because of the following reasons:
+    <br><br>
+          <ul>
+    <li>They are visually impaired. Users with significant visual impairments often use tools called screen readers to read out the alt text to them.</li>
+    <li>Something has gone wrong causing the image not to display. For example, try deliberately changing the path inside your <code>src</code> attribute to make it incorrect.</li>
+          </ul></p>
+    <br>
+        <p>
+          The keywords for alt text are "descriptive text". The <code>alt</code> text you write should provide the reader with enough information to have a good idea of what the image conveys. In this example, our current text of "My test image" is no good at all. A much better alternative for our Firefox logo would be "The Firefox logo: a flaming fox surrounding the Earth."</p>
+        </section>
+        <section class="main-section" id="Marking_up_text">
+          <header>
+            Marking up text
+          </header>  
+            <p>This section will cover some of the essential HTML elements you'll use for marking up the text.</p>
+    <p>
+    Headings
+    <br><br>
+    Heading elements allow you to specify that certain parts of your content are headings — or subheadings. In the same way that a book has the main title, chapter titles, and subtitles, an HTML document can too. HTML contains 6 heading levels, <code>h1</code> to <code>h6</code>, although you'll commonly only use 3 to 4 at most.</p>
+          <p>Paragraphs
+    <br><br>
+            As explained above, <code>p</code> elements are for containing paragraphs of text; you'll use these frequently when marking up regular text content.
+    <br><br>
+    Add your sample text (you should have it from What should your website look like?) into one or a few paragraphs, placed directly below your element. </p>
+        </section>
+        <section class="main-section" id="Links">
+          <header>
+            Links
+          </header>  
+            <p> Links are very important — they are what makes the web a web! To add a link, we need to use a simple element — <code>a</code> — "a" being the short form for "anchor". To make text within your paragraph into a link, follow these steps:
+              <ol>
+      <li>Choose some text. We chose the text "Mozilla Manifesto".</li>
+    <li>Wrap the text in an <code>a</code> element, as shown below:
+      <a>Mozilla Manifesto</a></li>
+    <li>Give the <code>a</code> element an href attribute, as shown below:
+      <a href="">Mozilla Manifesto</a></li>
+    <li>Fill in the value of this attribute with the web address that you want the link to link to <a href="https://www.mozilla.org/en-US/about/manifesto/">Mozilla Manifesto</a></li>
+              </ol>
+            </p>
+        </section>
+      </main>
+          <nav id="navbar">
+            <header>
+          <ul><a class="nav-link" href="#Introduction">Introduction</a></ul>
+          <ul><a class="nav-link" href="#So,_what_is_HTML?">So, what is HTML?</a></ul>
+          <ul><a class="nav-link" href="#Images">Images</a></ul>  
+          <ul><a class="nav-link" href="#Marking_up_text">Marking up text</a></ul>
+          <ul><a class="nav-link" href="#Links">Links</a></ul>
+            </header>
+          </nav>
+</body>
+</html>
